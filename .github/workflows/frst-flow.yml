@@ -1,0 +1,10 @@
+name: Practice_GitHub
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps: 
+    - name: Hi
+      run: echo "Hi bacha"
+    - name: Bye
+      run: echo "bye bacha"
