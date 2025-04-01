@@ -8,3 +8,7 @@ jobs:
       run: echo "Hi bacha"
     - name: Bye
       run: echo "bye bacha"
+    - name: run all at a time
+      run : |
+            echo "chandana"
+            echo "neeraj"
