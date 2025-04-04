@@ -1,0 +1,12 @@
+name: gadgets
+on: push
+jobs:
+  mobile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: install nodejs
+        uses: actions/checkout@v3
+        with:
+          node-version: 16
+      - name: testing
+        run: npm install
