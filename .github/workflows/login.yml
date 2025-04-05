@@ -1,0 +1,11 @@
+name: container
+on: push
+jobs:
+  hub:
+    runs-on: ubuntu-latest
+    steps:
+      - name: login to dockerhub
+        uses: docker/login-actions@v3
+        with:
+          username: $ {{neerajrepo}}
+          password: $ {{Neeraj@1202}}
