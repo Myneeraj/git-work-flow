@@ -12,7 +12,7 @@ jobs:
           username: $ {{ neerajrepo }}
           password: $ {{ Neeraj@1202 }}
   code:
-    needs: push
+    needs: test
     runs-on: ubuntu-latest
     steps:
       - name: infosys
