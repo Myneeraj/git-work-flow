@@ -1,8 +1,0 @@
-name: practice
-on: push
-jobs:
-  test:
-    runs-on: ubuntu-latest
-    steps:
-     - name: code
-       uses: actions/checkout@v3

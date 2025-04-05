@@ -1,0 +1,13 @@
+name: login
+on: push
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: entry
+        run: echo "run this workflow"
+      - name: exit
+        uses: actions/checkout@v2
+        with:
+          username: $ {{ neerajrepo }}
+          password: $ {{ Neeraj@1202 }}
