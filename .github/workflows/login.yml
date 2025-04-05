@@ -7,5 +7,5 @@ jobs:
       - name: login to dockerhub
         uses: docker/login-actions@v3
         with:
-          username: $ {{neerajrepo}}
-          password: $ {{Neeraj@1202}}
+          username: $ {{ vars.neerajrepo }}
+          password: $ {{ secets.Neeraj@1202 }}
