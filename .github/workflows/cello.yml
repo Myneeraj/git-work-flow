@@ -1,0 +1,15 @@
+name: bottle
+on: push
+jobs:
+  water:
+    runs-on: ubuntu-latest
+    steps:
+      - name: test
+        uses: actions/checkout@v2
+      - name: deploy
+        run: echo "welcome"
+  wine:
+    runs-on: ubuntu-latest
+    steps:
+      - name: linux
+        uses: actions/checkout@v3
