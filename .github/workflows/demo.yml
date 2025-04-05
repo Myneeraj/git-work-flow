@@ -11,3 +11,9 @@ jobs:
         with:
           username: $ {{ neerajrepo }}
           password: $ {{ Neeraj@1202 }}
+  code:
+    runs-on: ubuntu-latest
+    steps:
+      - name: laptop
+        run: print "Hello world"
+        
