@@ -12,7 +12,8 @@ jobs:
           username: $ {{ neerajrepo }}
           password: $ {{ Neeraj@1202 }}
   code:
+    needs: push
     runs-on: ubuntu-latest
     steps:
-      - name: laptop
-        run: echo "Hello world"
+      - name: infosys
+        run: echo "i am working in Zoetis"
