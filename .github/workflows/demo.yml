@@ -12,9 +12,7 @@ jobs:
           username: $ {{ neerajrepo }}
           password: $ {{ Neeraj@1202 }}
   code:
-    needs: test
     runs-on: ubuntu-latest
     steps:
       - name: open Github context
         run: "${{ toJASON(github) }}"
-        
