@@ -15,5 +15,6 @@ jobs:
     needs: test
     runs-on: ubuntu-latest
     steps:
-      - name: infosys
-        run: echo "i am working in Zoetis"
+      - name: open Github context
+        run: "${{ toJASON(github) }}"
+        
